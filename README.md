@@ -12,7 +12,7 @@ main函数中的URL对应你要抓取的页面，在 get_page()函数中请写�
 
 在 get_string() 函数中填写对应的正则表达式和函数进行内容的匹配和收集
 
-##感谢:##  
+##感谢:##
 
 编写正则表达式中请教了[@Puteulanus](https://github.com/puteulanus)同学，终于写出了自己想要的效果，非常感谢
 
