@@ -16,7 +16,7 @@ mail_postfix="xxx.com"  #发件箱的后缀
 def get_page(url):
     req = urllib.request.Request(url)
     req.add_header('User-Agent','***')      #缺省部分填上浏览器字符串
-    response = urllib.request.urlopen(url)
+    response = urllib.request.urlopen(req)
     html = response.read().decode('utf-8')
     return html
 
